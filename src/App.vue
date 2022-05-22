@@ -59,14 +59,14 @@
     </div>
   </section>
 
-  <section class="w-screen pt-5 md:mb-10 mt-16 md:mt-0" id='about'>
+  <section class="w-screen pt-5 md:mb-2 mt-16 md:mt-0" id='about'>
     <h2 class="w-full text-center text-[#f69c22]  md:text-5xl text-3xl font-[#21201c]  font-bold py-2">ABOUT HOMETOWN</h2>
     <div class="bg-[#f69c22] py-2 px-8 text-lg">
-      <p class="text-center text-[#21201c] font-medium md:text-2xl">Here at Hometown Movers LLC, we take pride in our work and customer satisfaction. Since being established in 2017, we have professionally moved thousands of families from one hometown to the next. We are a fully licensed and insured moving company that is locally owned and based in Godley, Texas. Call today and let us be a part of your new Hometown!</p>
+      <p class="text-center text-[#21201c] font-medium md:text-2xl 2xl:text-5xl">Here at Hometown Movers LLC, we take pride in our work and customer satisfaction. Since being established in 2017, we have professionally moved thousands of families from one hometown to the next. We are a fully licensed and insured moving company that is locally owned and based in Godley, Texas. Call today and let us be a part of your new Hometown!</p>
     </div>
   </section>
 
-  <section class="w-screen pt-5 mb-10">
+  <section class="w-screen pt-5 mb-5">
     <h2 class="w-full text-center text-[#f69c22] md:text-5xl text-3xl  font-[#21201c] font-black py-2">ABOUT THE OWNERS</h2>
     <div class="flex md:flex-row flex-col">
     <img 
@@ -74,7 +74,7 @@
       class="md:max-w-[50%] max-w-[100%] object-cover"
     />
     <div class="bg-[#21201c] flex items-center justify-center">
-     <p class="text-[#f69c22] font-medium text-lg text-center px-10 md:text-2xl">Hometown Movers was established in 2017 by Riley Davis and Austin Martinez, two entrepreneurs and best friends who grew up together in Godley, Texas. Growing up, the pair played along side each other on many athletic teams and knew they wanted to create a business together in the future. Their athletic backgrounds proved beneficial because they knew they had each others back and now run Hometown Movers with a team mindset. Being from Godley, the two men enjoy seeing their hometown grow and are proud to play their part in doing so!</p> 
+     <p class="text-[#f69c22] font-medium text-lg text-center px-10 md:text-2xl 2xl:text-5xl">Hometown Movers was established in 2017 by Riley Davis and Austin Martinez, two entrepreneurs and best friends who grew up together in Godley, Texas. Growing up, the pair played along side each other on many athletic teams and knew they wanted to create a business together in the future. Their athletic backgrounds proved beneficial because they knew they had each others back and now run Hometown Movers with a team mindset. Being from Godley, the two men enjoy seeing their hometown grow and are proud to play their part in doing so!</p> 
     </div>
     </div>
   </section>
@@ -83,14 +83,14 @@
     <div class="text-[#21201c] flex flex-col md:flex-row items-center justify-between gap-4 md:gap-0">
       <div class="w-1/2 flex flex-col items-center gap-2 md:gap-0">
         <img class="w-[120px]" src="./assets/fb-logo.png"/>
-        <a href="https://web.facebook.com/hometownmovers223/" target="_blank" class="md:text-4xl text-xl md:w-[60%] w-[100%] text-center font-medium">
+        <a href="https://web.facebook.com/hometownmovers223/" target="_blank" class="md:text-4xl text-xl 2xl:text-7xl md:w-[60%] w-[100%] text-center font-medium">
         CHECK US OUT ON FACEBOOK!
         </a>
       </div>
         <hr class="md:w-1 md:h-[240px] w-[300px] h-1 bg-[#f69c22]">
       <div class="md:w-1/2 w-full flex flex-col items-center md:pl-20 gap-2">
-        <p class="md:text-4xl text-xl md:w-[70%] w-[60%] text-center font-medium">CALL TO BOOK YOUR MOVE TODAY</p>
-        <p class="md:text-5xl text-2xl w-[60%] text-center font-[#21201c] font-bold">817.240.2061</p>
+        <p class="md:text-4xl 2xl:text-7xl text-xl md:w-[70%] w-[60%] text-center font-medium">CALL TO BOOK YOUR MOVE TODAY</p>
+        <p class="md:text-5xl 2xl:text-7xl text-2xl w-[60%] text-center font-[#21201c] font-bold">817.240.2061</p>
       </div>
     </div>
   </section>
