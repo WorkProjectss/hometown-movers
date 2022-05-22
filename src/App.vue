@@ -31,8 +31,8 @@
         <path d="M40 61.08L64.72 76L58.16 47.88L80 28.96L51.24 26.52L40 0L28.76 26.52L0 28.96L21.84 47.88L15.28 76L40 61.08Z" fill="#f69c22"/>
       </svg>
     </div>
-    <p class="text-center font-medium">Austin and his team provided me with 5-star service. I am very pleased with their professionalism, courtesy, and efficiency. Hometown Movers got the job completed quickly and went above my expectaions. Thank you gentelmen. Y'all did a great job!</p>
-    <p>- Rocky</p>
+    <p class="text-center font-medium md:text-xl">Austin and his team provided me with 5-star service. I am very pleased with their professionalism, courtesy, and efficiency. Hometown Movers got the job completed quickly and went above my expectaions. Thank you gentelmen. Y'all did a great job!</p>
+    <p class="md:text-xl">- Rocky</p>
     <!-- facebook reviews -->
   </section>
   
@@ -62,7 +62,7 @@
   <section class="w-screen pt-5 md:mb-10 mt-16 md:mt-0" id='about'>
     <h2 class="w-full text-center text-[#f69c22]  md:text-5xl text-3xl font-[#21201c]  font-bold py-2">ABOUT HOMETOWN</h2>
     <div class="bg-[#f69c22] py-2 px-8 text-lg">
-      <p class="text-center text-[#21201c] font-medium">Here at Hometown Movers LLC, we take pride in our work and customer satisfaction. Since being established in 2017, we have professionally moved thousands of families from one hometown to the next. We are a fully licensed and insured moving company that is locally owned and based in Godley, Texas. Call today and let us be a part of your new Hometown!</p>
+      <p class="text-center text-[#21201c] font-medium md:text-2xl">Here at Hometown Movers LLC, we take pride in our work and customer satisfaction. Since being established in 2017, we have professionally moved thousands of families from one hometown to the next. We are a fully licensed and insured moving company that is locally owned and based in Godley, Texas. Call today and let us be a part of your new Hometown!</p>
     </div>
   </section>
 
@@ -74,7 +74,7 @@
       class="md:max-w-[50%] max-w-[100%] object-cover"
     />
     <div class="bg-[#21201c] flex items-center justify-center">
-     <p class="text-[#f69c22] font-medium text-lg text-center px-10">Hometown Movers was established in 2017 by Riley Davis and Austin Martinez, two entrepreneurs and best friends who grew up together in Godley, Texas. Growing up, the pair played along side each other on many athletic teams and knew they wanted to create a business together in the future. Their athletic backgrounds proved beneficial because they knew they had each others back and now run Hometown Movers with a team mindset. Being from Godley, the two men enjoy seeing their hometown grow and are proud to play their part in doing so</p> 
+     <p class="text-[#f69c22] font-medium text-lg text-center px-10 md:text-2xl">Hometown Movers was established in 2017 by Riley Davis and Austin Martinez, two entrepreneurs and best friends who grew up together in Godley, Texas. Growing up, the pair played along side each other on many athletic teams and knew they wanted to create a business together in the future. Their athletic backgrounds proved beneficial because they knew they had each others back and now run Hometown Movers with a team mindset. Being from Godley, the two men enjoy seeing their hometown grow and are proud to play their part in doing so!</p> 
     </div>
     </div>
   </section>
