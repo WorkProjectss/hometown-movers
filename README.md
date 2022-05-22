@@ -1,8 +1,15 @@
-# Vue 3 + Vite
+# Hometown Movers Website
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+`git clone https://github.com/WorkProjectss/hometown-movers`
 
-## Recommended IDE Setup
+`cd hometown-movers`
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
-# hometown-movers
+`npm install`
+
+> Testing
+  `npm run dev`
+
+> Deployment  
+  `npm run build`
+  Deploy the `dist` folder
+
