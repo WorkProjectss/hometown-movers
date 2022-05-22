@@ -4,7 +4,7 @@
 <template>
   <main class="relative md:h-screen w-screen overflow-hidden">
   <header class="absolute z-10 top-0 w-screen flex items-center justify-between md:px-10 px-5 py-5 bg-gradient-to-b from-[#21201c]/50 to-transparent">
-    <img class="md:w-[200px] w-[280px] brightness-0 invert absolute md:relative left-[50%] -translate-x-[50%] md:transform-none md:inset-0 sm:top-[40vh] top-[22vh]" src="./assets/HometownFNL.png"/>
+    <img class="md:w-[250px] w-[280px] brightness-0 invert absolute md:relative left-[50%] -translate-x-[50%] md:transform-none md:inset-0 sm:top-[40vh] top-[22vh]" src="./assets/HometownFNL.png"/>
     <div class="flex gap-4 md:w-auto items-center justify-center w-screen">
       <a class="font-bold text-sm md:text-xl" href="#">HOME</a>
       <a class="font-bold text-sm md:text-xl" href="#services">SERVICES</a>
@@ -21,7 +21,7 @@
         class="lg:w-[105vw] xl:w-[120vw] md:w-[140vw] w-[200vw]"
 
       />
-    <a href="tel:+1 817-240-2061" class="absolute left-[50%] z-20 -translate-x-[50%] md:bottom-10 bottom-2 md:w-auto  w-[85%] text-[#21201c] bg-[#f69c22] py-4 px-8 rounded-3xl md:text-4xl text-xl font-bold text-center">
+    <a href="tel:+1 817-240-2061" class="absolute left-[50%] z-20 -translate-x-[50%] md:bottom-10 bottom-2 md:w-auto  w-[85%] text-[#21201c] bg-[#f69c22] py-4 px-8 rounded-3xl md:text-5xl text-xl font-bold text-center">
       CALL TO BOOK TODAY!
     </a>
   </main> 
@@ -74,7 +74,7 @@
       class="md:max-w-[50%] max-w-[100%] object-cover"
     />
     <div class="bg-[#21201c] flex items-center justify-center">
-     <p class="text-[#f69c22] font-medium text-lg text-center px-10 md:text-2xl 2xl:text-4xl py-4 lg:py-0">Hometown Movers was established in 2017 by Riley Davis and Austin Martinez, two entrepreneurs and best friends who grew up together in Godley, Texas. Growing up, the pair played along side each other on many athletic teams and knew they wanted to create a business together in the future. Their athletic backgrounds proved beneficial because they knew they had each others back and now run Hometown Movers with a team mindset. Being from Godley, the two men enjoy seeing their hometown grow and are proud to play their part in doing so!</p> 
+     <p class="text-[#f69c22] font-medium text-lg text-center px-10 md:text-2xl 2xl:text-3xl py-4 lg:py-0">Hometown Movers was established in 2017 by Riley Davis and Austin Martinez, two entrepreneurs and best friends who grew up together in Godley, Texas. Growing up, the pair played along side each other on many athletic teams and knew they wanted to create a business together in the future. Their athletic backgrounds proved beneficial because they knew they had each others back and now run Hometown Movers with a team mindset. Being from Godley, the two men enjoy seeing their hometown grow and are proud to play their part in doing so!</p> 
     </div>
     </div>
   </section>
