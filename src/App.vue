@@ -13,7 +13,7 @@
   </header>
   <main class="relative h-screen w-screen overflow-hidden">
       <video 
-        src="./assets/video-bg.m4v"
+        src="./assets/videobg.mp4"
         autoplay
         muted
         loop
