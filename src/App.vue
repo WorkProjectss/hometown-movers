@@ -4,12 +4,12 @@
 <template>
   <main class="relative md:h-screen w-screen overflow-hidden">
   <header class="absolute z-10 top-0 w-screen flex items-center justify-between md:px-10 px-5 py-5 bg-gradient-to-b from-[#21201c]/50 to-transparent">
-    <img class="md:w-[150px] w-[280px] brightness-0 invert absolute md:relative left-[50%] -translate-x-[50%] md:inset-0 sm:top-[40vh] top-[22vh]" src="./assets/HometownFNL.png"/>
+    <img class="md:w-[200px] w-[280px] brightness-0 invert absolute md:relative left-[50%] -translate-x-[50%] md:transform-none md:inset-0 sm:top-[40vh] top-[22vh]" src="./assets/HometownFNL.png"/>
     <div class="flex gap-4 md:w-auto items-center justify-center w-screen">
-      <a class="font-bold text-sm" href="#">HOME</a>
-      <a class="font-bold text-sm" href="#services">SERVICES</a>
-      <a class="font-bold text-sm" href="#about">ABOUT US</a>
-      <a class="font-bold text-sm" href="#contact">CONTACT</a>
+      <a class="font-bold text-sm md:text-xl" href="#">HOME</a>
+      <a class="font-bold text-sm md:text-xl" href="#services">SERVICES</a>
+      <a class="font-bold text-sm md:text-xl" href="#about">ABOUT US</a>
+      <a class="font-bold text-sm md:text-xl" href="#contact">CONTACT</a>
     </div>
   </header>
       <video 
