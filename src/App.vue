@@ -17,10 +17,11 @@
         autoplay
         muted
         loop
+        playsinline
         class="lg:min-h-full lg:min-w-[100vw] lg:w-auto lg:h-auto w-[100vw]"
 
       />
-    <a href="tel:+1 817-240-2061" class="absolute left-[50%] -translate-x-[50%] lg:bottom-10 bottom-2 lg:w-auto  w-[75%] text-[#21201c] bg-[#f69c22] py-2 px-4 rounded-2xl lg:text-3xl font-bold text-center">
+    <a href="tel:+1 817-240-2061" class="absolute left-[50%] z-20 -translate-x-[50%] lg:bottom-10 bottom-2 lg:w-auto  w-[75%] text-[#21201c] bg-[#f69c22] py-2 px-4 rounded-2xl lg:text-3xl font-bold text-center">
       CALL TO BOOK TODAY!
     </a>
   </main>
