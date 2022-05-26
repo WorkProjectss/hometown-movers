@@ -1,4 +1,31 @@
 <script setup>
+import { ref } from 'vue';
+import 'vue3-carousel/dist/carousel.css';
+import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel';
+
+  const reviews = ref([
+  {
+    reviewerName:'Jake Tolbert',
+    review:"I've used them twice now, always on time or 15 minutes early. Extremely professional movers that I will definitely use again!",
+  },
+  {
+    reviewerName:"Robin Rowe Kiel",
+    review:"Very professional, friendly and fantastic job ! Packed up our house of 27 years and moved us to new place with a smile in record time. They are the BEST !!!"
+  },
+  {
+    reviewerName:'Robin K Nan Marie Gauthier',
+    review:"Hometown Movers did an excellent & quick job loading our third floor apartment (without an elevator) into our moving truck! No damages, super friendly, on time, & super efficient! I highly recommend this team for your next move!"
+  },
+  {
+    reviewerName:'Tami Golightly',
+    review:"If you're moving soon you NEED to contact these guys. I highly recommend them!! They moved us from Burleson to Godley & did it in less time than they quoted us. They we're so much fun to work with & really take pride in what they do! They even let my 12 yo help out & let my 8yo honk the horn in their big truck!"
+  },
+  {
+    reviewerName:'Rocky',
+    review:"Austin and his team provided me with 5-star service. I am very pleased with their professionalism, courtesy, and efficiency. Hometown Movers got the job completed quickly and went above my expectaions. Thank you gentelmen. Y'all did a great job!"
+  }
+
+])
 </script>
 
 <template>
@@ -19,20 +46,31 @@
         loop
         playsinline
         class="lg:w-[105vw] xl:w-[120vw] md:w-[140vw] w-[200vw]"
-
       />
     <a href="tel:+1 817-240-2061" class="absolute left-[50%] z-20 -translate-x-[50%] md:bottom-10 bottom-2 md:w-auto  w-[85%] text-[#21201c] bg-[#f69c22] py-4 px-8 rounded-3xl md:text-5xl text-xl font-bold text-center">
       CALL TO BOOK TODAY!
     </a>
   </main> 
-  <section class="w-screen flex flex-col items-center bg-[#21201c] px-8 py-4">
-    <div class="flex gap-2 mb-2">
+  <section class="w-screen flex gap-2 justify-evenly px-8 pt-2 bg-[#21201c] max-w-[100vw] overflow-hidden">
+  <carousel :autoplay="10000" :transition="1500" :wrapAround="true" :items-to-show="1">
+    <slide v-for="review in reviews" :key="review.reviewerName"  >
+<div class="h-full flex flex-col items-center justify-evenly">
+      <p class="text-center font-bold lg:font-medium md:text-4xl bg-orange-400/50 w-[40px] lg:w-[60px] lg:h-[60px] p-2 rounded-full">{{review.reviewerName[0]}}</p>
+      <p class="text-center font-medium md:text-xl lg:w-[50%] w-[50%]">{{review.review}}</p>
+      <div class="flex gap-2 mb-2 mt-2">
       <svg v-for="i in 5" :key="i" class="w-5" viewBox="0 0 80 76" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M40 61.08L64.72 76L58.16 47.88L80 28.96L51.24 26.52L40 0L28.76 26.52L0 28.96L21.84 47.88L15.28 76L40 61.08Z" fill="#f69c22"/>
+      <path d="M40 61.08L64.72 76L58.16 47.88L80 28.96L51.24 26.52L40 0L28.76 26.52L0 28.96L21.84 47.88L15.28 76L40 61.08Z" fill="#f69c22"/>
       </svg>
-    </div>
-    <p class="text-center font-medium md:text-xl">Austin and his team provided me with 5-star service. I am very pleased with their professionalism, courtesy, and efficiency. Hometown Movers got the job completed quickly and went above my expectaions. Thank you gentelmen. Y'all did a great job!</p>
-    <p class="md:text-xl">- Rocky</p>
+      </div>
+      <p class="md:text-xl">- {{review.reviewerName}}</p>
+      </div>
+    </slide>
+
+    <template #addons>
+      <navigation />
+      <pagination />
+    </template>
+  </carousel>
     <!-- facebook reviews -->
   </section>
   
